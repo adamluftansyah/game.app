@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+	<title>ADAM PLay</title>
+    <style>
+html,body { margin: 0;overflow: hidden;}
+canvas{ padding: 0; margin: auto; display: block; width:100%;}
+#gameArea {width:80%; position:absolute;}
+#game {margin:50px;}
+	</style>
+ 	<script type="text/javascript" src="js/gameLib.js"></script>       
+</head>
+<body>
+	<!-- <audio id="audio" controls autoplay style="position: absolute; bottom: 270px; left: 670px; z-index: 99; opacity: 1.0; transform: scale(2.0);">
+        <source src="assets/mario.mp3" type="audio/mpeg"></source>
+    </audio>	 -->
+<div id="game">
+	<div id="gameArea"><canvas id="canvas"></canvas></div>
+</div>
+</body>
+<!-- <script>
+	var efek=new Audio();
+	efek.src="mario.mp3";
+	efek.onloadeddata=function(){
+		efek.pause();
+		efek.play();
+		
+	}
+
+
+</script> -->
+<script type="text/javascript" src="js/map_1.js"></script>
+<script type="text/javascript" src="js/map_2.js"></script>
+<script type="text/javascript" src="js/map_3.js"></script>
+<script type="text/javascript" src="js/game.js"></script>
+<!-- <script>
+	const audio = document.querySelector('#audio')
+	const play = (audio) => {
+		audio.play()
+	}
+
+	body.addEventListener('load', play(audio))
+</script> -->
+</html>
